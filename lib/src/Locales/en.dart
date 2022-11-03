@@ -22,6 +22,7 @@ const en = {
   'number': ':name must contain only number',
   'boolean': ':name must be boolean',
   'date': ':name must be a valid date',
+  'string': ':name must be a string',
   'regex': ':name format is invalid',
   'required': ':name field is required',
   'starts_with': ':name must start with :pattern pattern',
