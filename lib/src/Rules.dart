@@ -87,7 +87,7 @@ class Rules {
       case 'date':
         return Date(inspectionCase).stringValidation();
       case 'string':
-        return String(inspectionCase).stringValidation();
+        return StringValue(inspectionCase).stringValidation();
       case 'iran_national_code':
         return IranNationalCode(inspectionCase).stringValidation();
       case 'iran_mobile':
