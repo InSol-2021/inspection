@@ -23,6 +23,7 @@ const en = {
   'boolean': ':name must be boolean',
   'date': ':name must be a valid date',
   'string': ':name must be a string',
+  'nullable': '',
   'regex': ':name format is invalid',
   'required': ':name field is required',
   'starts_with': ':name must start with :pattern pattern',
