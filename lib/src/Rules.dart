@@ -18,6 +18,7 @@ import 'package:inspection/src/Rules/OnlyAlpha.dart';
 import 'package:inspection/src/Rules/Date.dart';
 import 'package:inspection/src/Rules/Boolean.dart';
 import 'package:inspection/src/Rules/String.dart';
+import 'package:inspection/src/Rules/Nullable.dart';
 import 'package:inspection/src/Rules/Regex.dart';
 import 'package:inspection/src/Rules/Required.dart';
 import 'package:inspection/src/Rules/StartWith.dart';
@@ -88,6 +89,8 @@ class Rules {
         return Date(inspectionCase).stringValidation();
       case 'string':
         return StringValue(inspectionCase).stringValidation();
+      case 'nullable':
+        return Nullable(inspectionCase).stringValidation();
       case 'iran_national_code':
         return IranNationalCode(inspectionCase).stringValidation();
       case 'iran_mobile':
